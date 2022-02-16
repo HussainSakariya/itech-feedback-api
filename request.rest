@@ -1,0 +1,27 @@
+GET http://localhost:5001/getemployee
+
+###
+
+GET http://localhost:5001/getfeedback
+x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidjR2eWE1OXBBcVpaZmxkZFNIVnUiLCJpYXQiOjE2NDQ4NTM4MzV9.pWAtqP6rf8a9W_M-ATIq4U0wz7Z2FSZUrqjH1xtr7H8
+
+###
+POST http://localhost:5001/adminlogin
+content-type: application/json
+
+{
+    "username":"admin",
+    "password":"admin"
+}
+
+###
+
+GET http://localhost:5001/authadmin
+id:v4vya59pAqZZflddSHVu
+username:admin
+x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidjR2eWE1OXBBcVpaZmxkZFNIVnUiLCJpYXQiOjE2NDQ3NzAxNDN9.eJQWka3CDFg_dX5raPXHwPvYp3Ei0eKJK6Ar3I7DfuY
+
+###
+
+GET http://localhost:5001/checkauth
+x-access-token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoidjR2eWE1OXBBcVpaZmxkZFNIVnUiLCJpYXQiOjE2NDQ4NTM4MzV9.pWAtqP6rf8a9W_M-ATIq4U0wz7Z2FSZUrqjH1xtr7H8
